@@ -16,10 +16,10 @@ public double media;
 public string situacao;
 
 static void Main(string[] args){
-const int bom = 3;
+const int bom = 15;
 Alunos[] alunos = new Alunos[bom];
 
-for (int x = 0; x < 3; x++){
+for (int x = 0; x < 15; x++){
 Console.WriteLine("Digite o NOME do {0}ºaluno:", x + 1);
 alunos[x].nome = Console.ReadLine();
   
@@ -36,7 +36,7 @@ Console.Clear();
 }
 
 Console.Clear();
-for (int x = 0; x < 3; x++){
+for (int x = 0; x < 15; x++){
 Console.WriteLine("{0}ºAluno: {1}", x+1, alunos[x].nome);
 Console.WriteLine("1°Nota: {0}", alunos[x].nota1);
 Console.WriteLine("2°Nota: {0}", alunos[x].nota2);
