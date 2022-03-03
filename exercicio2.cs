@@ -39,7 +39,7 @@ namespace Plinio_Salgado
            data1.val = false; 
            Console.WriteLine("Data invalida"); 
           }
-          if(data1.ano%4==0 || data1.ano%400==0 || data1.mes == 2 || data1.dia == 29 ){
+          if(data1.ano%4==0 && data1.ano!=0 || data1.ano%400==0 || data1.mes == 2 || data1.dia == 29 ){
           data1.bis = true;
           }
           else{
